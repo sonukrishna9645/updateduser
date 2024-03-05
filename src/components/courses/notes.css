@@ -1,0 +1,28 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-left: -10px;}
+
+    .cui {
+        color: var(--cui-font-color);
+        line-height: var(--cui-line-height);
+        position: relative;
+        font-family: var(--cui-font-stack);
+        font-weight: var(--cui-font-weight);
+        font-size: var(--cui-font-size);
+        min-width: var(--cui-min-page-width);
+        max-width: var(--cui-max-page-width);
+        height: auto;
+        min-height: 100%;
+        margin: 0 auto;
+        padding: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: var(--cui-background-color);
+        direction: ltr;
+        text-align: left;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
